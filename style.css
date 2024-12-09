@@ -1,0 +1,264 @@
+ /*Global*/
+body {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #000;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    width: 1140px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+.container { 
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/*Header*/
+
+
+.site-logo-img{
+    text-decoration: none;
+    object-fit: cover;
+    height: 50px;
+}
+
+
+.sitenav-list{
+    list-style: none;
+}
+
+.sitenav {
+    display: inline-block;
+    text-decoration: none;
+}
+.sitenav-item {
+    display: inline-block;
+    padding : 10px;
+ }
+
+
+.sitenav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #252525;
+    text-transform: capitalize;
+    
+} 
+
+
+.sitenav-link:hover{
+    color: hotpink;
+}
+
+
+.sitenav-item.active a {
+    color: hotpink;
+}
+
+/*Hero*/
+
+
+
+
+
+.hero-heading{
+    font-size: 60px;
+    text-align: center;
+    padding: 50px 30px;
+    float: left;
+}
+
+
+.hero-img{
+    text-align: end ;
+}
+
+
+.hero-heading-img{
+    height: 200px;
+    width: 1000px;
+    object-fit: cover;
+    display:inline-block
+}
+
+.hero-obuna{
+    text-align: center
+}
+
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.btn-news-item{
+    background-color: #2c0f52;
+    color: aqua;
+    border: 5px solid #975204;
+    border-radius: 12px;
+}
+
+
+
+
+.btn:hover{
+    background-color: beige;
+    color: black;
+    border: 5px solid #ff7474;
+    border-radius: 12px;
+}
+    
+
+
+.hero-button{
+    color: #fff;
+    font-size: 32px;    
+    border: 5px solid #ff7474;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #000;
+
+}
+
+
+/*News*/
+.news-heading , 
+.viloyatlar-heading{
+    font-size: 32px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.news-item-heading{
+    font-size: 32px;
+}
+
+
+.news-item1 , .news-item2 , .news-item3{
+    display: inline-block;
+    padding: 0px;
+
+}
+
+
+.news-item-content{
+    border: 5px solid #ff7474;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+
+.news-list{
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+
+.news-item-img{
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
+
+/*Aside*/
+
+
+.aside {
+    text-align: center;
+}
+
+.viloyatlar-heading{
+    list-style: none;
+    text-align: center;
+}
+
+.viloyatlar-contanier{
+    text-align: center;
+}
+
+.viloyatlar-content{
+    border: 5px solid #ff7474;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+.viloyatlar-link:hover{
+    color: #ff7474 ;
+}
+
+
+.viloyatlar-list1 ,
+.viloyatlar-list2 ,
+.viloyatlar-list3 {
+    list-style: none;
+    display: inline-block;
+    display: flex;
+
+}
+
+.viloyatlar-list1{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+.viloyatlar-list2{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+.viloyatlar-list3{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+
+}
+
+
+.viloyatlar-link{
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #222;
+}
+
+
+/*Following*/
+.folowing {
+    text-align: center;
+}
+.following-item{
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+}
+
+/*Foooter*/
+
+
+.footer-backround-color{
+    background-color: #000000a8;
+
+}
+
